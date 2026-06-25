@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visual / AI / Brand Designer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="nav">
+        <a class="brand" href="#top" aria-label="回到首页">
+          <span class="brand-mark"></span>
+          <span>PORTFOLIO</span>
+        </a>
+        <nav class="nav-links" aria-label="主导航">
+          <a class="is-active" href="#projects">作品浏览</a>
+          <a href="#profile">简介</a>
+          <a href="#cases">项目</a>
+          <a href="#strengths">优势</a>
+          <a href="#contact">联系</a>
+        </nav>
+        <a class="nav-cta" href="mailto:hello@example.com">联系我</a>
+      </header>
+
+      <main id="top">
+        <section class="hero section-full">
+          <video class="hero-video" autoplay muted loop playsinline poster="" aria-hidden="true">
+            <source src="assets/hero-bg.mp4" type="video/mp4" />
+          </video>
+          <canvas class="motion-field" aria-hidden="true"></canvas>
+          <!-- <div class="hero-shade" aria-hidden="true"></div> -->
+          <div class="container hero-inner">
+            <div class="hero-poster" aria-label="个人作品集首屏">
+              <div class="hero-type" aria-hidden="true">
+                <div class="type-row">
+                  <span>P</span>
+                  <span>O</span>
+                  <span class="outline">R</span>
+                  <span>T</span>
+                </div>
+                <div class="type-row">
+                  <span>F</span>
+                  <span class="sun-disc"></span>
+                  <span>L</span>
+                  <span class="outline narrow">I</span>
+                </div>
+                <div class="type-row compact">
+                  <span>O</span>
+                </div>
+              </div>
+
+              <div class="hero-info">
+                <!-- <div class="hero-name">
+                  <span>必展</span>
+                  <strong>BIZHAN WANG</strong>
+                </div> -->
+                <div class="hero-role">
+                  <span>设计作品集</span>
+                  <span>BRAND VISUAL</span>
+                  <span>DESIGNER</span>
+                </div>
+              </div>
+
+              <!-- <div class="hero-meta">
+                <span class="meta-label">PERSONAL<br />DATA<br />VISUALIZATION</span>
+                <span class="meta-year"><b>2026</b></span>
+                <span class="meta-rule"></span>
+                <span class="meta-title">TWENTY<br />TWENTY ONE</span>
+              </div> -->
+
+              <a class="hero-action" href="#projects" aria-label="查看精选项目">↘</a>
+              <p class="hero-credit">DESIGNED BY.LINK</p>
+              <!-- <p class="hero-kicker"><span></span> PORTFOLIO-2026</p> -->
+            </div>
+          </div>
+        </section>
+
+        <section class="work-preview" id="projects" aria-label="作品浏览">
+          <div class="container">
+            <div class="preview-head reveal">
+              <p class="section-kicker">Classification</p>
+              <h2>视觉提案与品牌项目</h2>
+              <a href="#cases">MORE</a>
+            </div>
+            <div class="preview-track">
+              <a class="preview-card card-green reveal" href="project-app.html" aria-label="查看 APP DESIGN 项目详情">
+                <div class="preview-copy">
+                  <span>01\</span>
+                  <h3>UI VISUAL DESIGN</h3>
+                  <p>UI视觉设计</p>
+                </div>
+                <div class="preview-thumb app-thumb" aria-hidden="true">
+                  <img src="assets/card_1.png" alt="" />
+                </div>
+              </a>
+              <a class="preview-card card-black reveal" href="project-web.html" aria-label="查看 WEB DESIGN 项目详情">
+                <div class="preview-copy">
+                  <span>02\</span>
+                  <h3>B-END INTERFACE</h3>
+                  <p>B端界面设计</p>
+                </div>
+                <div class="preview-thumb web-thumb" aria-hidden="true">
+                  <img src="assets/card_2.png" alt="" />
+                </div>
+              </a>
+              <a class="preview-card card-white reveal" href="project-poster.html" aria-label="查看 POSTER DESIGN 项目详情">
+                <div class="preview-copy">
+                  <span>03\</span>
+                  <h3>OPERATIONS AND E-COMMERCE</h3>
+                  <p>运营视觉设计</p>
+                </div>
+                <div class="preview-thumb poster-thumb" aria-hidden="true">
+                  <img src="assets/card_3.png" alt="" />
+                </div>
+              </a>
+              <a class="preview-card card-blue reveal" href="project-brand.html" aria-label="查看 BRAND DESIGN 项目详情">
+                <div class="preview-copy">
+                  <span>04\</span>
+                  <h3>BRAND DESIGN</h3>
+                  <p>品牌视觉设计</p>
+                </div>
+                <div class="preview-thumb brand-thumb" aria-hidden="true">
+                  <span class="thumb-title">BRAND<br />SYSTEM</span>
+                  <img src="assets/card_4.png" alt="" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- <section class="profile section-pad" id="profile">
+          <div class="container profile-grid">
+            <div class="portrait-wrap">
+              <div class="portrait" role="img" aria-label="个人形象占位图">
+                <div class="portrait-head"></div>
+                <div class="portrait-body"></div>
+                <span class="scan-line"></span>
+              </div>
+            </div>
+            <div class="profile-copy">
+              <p class="section-kicker">Profile</p>
+              <h2>在品牌策略、视觉表达与 AI 生成式设计之间建立稳定的工作流。</h2>
+              <p>
+                我是一名视觉设计师、AI 设计师与品牌设计师，擅长将品牌定位转译为清晰的视觉语言，
+                并通过 Midjourney、Stable Diffusion、ComfyUI 等 AI 工具拓展创意提案效率。
+                我关注作品的质感，也重视项目从概念、规范到落地的完整性。
+              </p>
+              <div class="contact-strip" aria-label="联系信息">
+                <span>hello@example.com</span>
+                <span>Shanghai / Remote</span>
+                <span>WeChat: your-id</span>
+              </div>
+              <div class="stats">
+                <div>
+                  <strong>30+</strong>
+                  <span>品牌与视觉项目</span>
+                </div>
+                <div>
+                  <strong>6+</strong>
+                  <span>设计工具链经验</span>
+                </div>
+                <div>
+                  <strong>3</strong>
+                  <span>核心设计方向</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> -->
+
+        <!-- <section class="projects section-pad" id="cases">
+          <div class="container">
+            <div class="section-head">
+              <p class="section-kicker">Selected Works</p>
+              <h2>精选项目</h2>
+              <p>先以占位项目呈现版式与信息层级，后续可替换为你的真实作品图、项目名称和项目说明。</p>
+            </div>
+            <div class="project-grid">
+              <article class="project-card project-a">
+                <div class="project-visual">
+                  <span class="visual-frame"></span>
+                  <span class="visual-bar bar-one"></span>
+                  <span class="visual-bar bar-two"></span>
+                  <span class="visual-bar bar-three"></span>
+                </div>
+                <div class="project-meta">
+                  <span>Brand Identity</span>
+                  <h3>新消费品牌视觉系统</h3>
+                  <p>品牌识别 / 包装视觉 / 社交媒体延展</p>
+                </div>
+              </article>
+              <article class="project-card project-b">
+                <div class="project-visual">
+                  <span class="visual-frame"></span>
+                  <span class="orbital orbital-one"></span>
+                  <span class="orbital orbital-two"></span>
+                  <span class="visual-chip"></span>
+                </div>
+                <div class="project-meta">
+                  <span>AI Design</span>
+                  <h3>AIGC 概念视觉探索</h3>
+                  <p>Prompt 设计 / 概念图 / 风格系统</p>
+                </div>
+              </article>
+              <article class="project-card project-c">
+                <div class="project-visual">
+                  <span class="visual-frame"></span>
+                  <span class="grid-plane"></span>
+                  <span class="poster-block"></span>
+                </div>
+                <div class="project-meta">
+                  <span>Digital Visual</span>
+                  <h3>活动主视觉与传播物料</h3>
+                  <p>KV 设计 / 屏幕视觉 / 线上传播</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="strengths section-pad" id="strengths">
+          <div class="container">
+            <div class="section-head compact">
+              <p class="section-kicker">Advantages</p>
+              <h2>个人优势</h2>
+            </div>
+            <div class="strength-grid">
+              <article>
+                <span>01</span>
+                <h3>品牌视觉系统</h3>
+                <p>从品牌调性、图形语言到应用规范，建立可延展且容易执行的视觉资产。</p>
+              </article>
+              <article>
+                <span>02</span>
+                <h3>AI 创意生产</h3>
+                <p>熟悉生成式图像工作流，能够将 AI 用在灵感发散、视觉提案和风格迭代中。</p>
+              </article>
+              <article>
+                <span>03</span>
+                <h3>商业审美判断</h3>
+                <p>在高级感与可传播性之间保持平衡，让视觉服务于品牌记忆点与实际业务目标。</p>
+              </article>
+              <article>
+                <span>04</span>
+                <h3>跨媒介落地</h3>
+                <p>覆盖线上页面、社媒物料、活动视觉、包装与品牌触点，保证体验一致。</p>
+              </article>
+            </div>
+          </div>
+        </section> -->
+
+        <section class="closing section-full" id="contact">
+          <div class="container closing-inner">
+            <p class="section-kicker">Contact</p>
+            <h2>期待与你一起，把下一个品牌想法变成可被记住的视觉体验。</h2>
+            <div class="closing-actions">
+              <a href="mailto:hello@example.com">573137951@qq.com</a>
+              <a href="tel:+8613800000000">+86 139 4309 6359</a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
